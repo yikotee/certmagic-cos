@@ -9,7 +9,8 @@
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square&logo=github" alt="License" /></a>
 </p>
 <h3 align="center">一款简洁的腾讯云COS连接工具 </h3>
-现有的 `Caddy` 插件：[CertMagic-S3](https://github.com/ss098/certmagic-s3") 仅支持 `path-style` 域名格式，无法直接用于腾讯云 `COS`（`path-style` 已被腾讯云弃用，见[腾讯云COS桶安全通知](https://cloud.tencent.com/document/product/436/96243)）。本项目提供 `CertMagic` 的 `Storage` 接口，用于连接到腾讯云 `COS`，证书的申请与续期仍由 `CertMagic` 负责，方便于 `SSL` 证书安全存储于 `COS`，并支持跨实例共享与分布式续期锁。
+<p>现有的 Caddy 插件：<a href="https://github.com/ss098/certmagic-s3">CertMagic-S3</a> 仅支持 path-style 域名格式，无法直接用于腾讯云 COS（path-style 已被腾讯云弃用，见<a href="https://cloud.tencent.com/document/product/436/96243">腾讯云COS桶安全通知</a>。本项目提供 CertMagic 的 Storage 接口，用于连接到腾讯云 COS，证书的申请与续期仍由 CertMagic 负责，方便于 SSL 证书安全存储于 COS，并支持跨实例共享与分布式续期锁。<p>
+
 
 ## ✨ 特性
 
@@ -277,10 +278,6 @@ certmagic.DefaultACME.CA = certmagic.LetsEncryptProductionCA
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
-
-## 👤 作者
-
-Kavi - [@yikotee](https://github.com/yikotee)
 
 ## 🔗 相关项目
 
