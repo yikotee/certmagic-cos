@@ -1,4 +1,4 @@
-module fk-cos
+module github.com/yikotee/certmagic-cos
 
 go 1.25
 
