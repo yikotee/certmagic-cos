@@ -282,7 +282,7 @@ certmagic.DefaultACME.CA = certmagic.LetsEncryptProductionCA
 ## 🔗 相关项目
 
 - [CertMagic](https://github.com/caddyserver/certmagic)
-- [CertMagic-S3](https://github.com/ss098/certmagic-s3")
+- [CertMagic-S3](https://github.com/ss098/certmagic-s3)
 - [Caddy](https://github.com/caddyserver/caddy)
 - [腾讯云 COS Go SDK](https://github.com/tencentyun/cos-go-sdk-v5)
 
