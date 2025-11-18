@@ -29,7 +29,7 @@ go get github.com/yikotee/certmagic-cos
 使用 [xcaddy](https://github.com/caddyserver/xcaddy) 构建：
 
 ```bash
-xcaddy build --with github.com/yikotee/certmagic-cos
+xcaddy build --with github.com/yikotee/certmagic-cos/cos
 ```
 
 ## 🚀 快速开始
