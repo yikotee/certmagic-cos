@@ -1,17 +1,13 @@
 <h1 align="center">Welcome to CertMagic-COS</h1>
 
 <p align="center">
-    <img src="https://goreportcard.com/badge/github.com/yikotee/certmagic-cos" />
-    <img src="https://godoc.org/github.com/yikotee/certmagic-cos?status.svg" />
-    <a href="https://github.com/yikotee/certmagic-cos/README.md">
+    <a href="https://goreportcard.com/report/github.com/yikotee/certmagic-cos">
+    <img src="https://goreportcard.com/badge/github.com/yikotee/certmagic-cos" /></a>
+    <a href="https://github.com/yikotee/certmagic-cos/blob/main/README.md">
     <img src="https://img.shields.io/badge/Docs-使用文档-blue?style=flat-square&logo=readthedocs" alt="Docs" /></a>
-    <a href="https://github.com/yikotee/certmagic-cos/LICENSE.md">
-    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square&logo=github" alt="License" /></a>
 </p>
 <h3 align="center">一款简洁的腾讯云COS连接工具 </h3>
 <p>现有的 Caddy 插件：<a href="https://github.com/ss098/certmagic-s3">CertMagic-S3</a> 仅支持 path-style 域名格式，无法直接用于腾讯云 COS（path-style 已被腾讯云弃用，见<a href="https://cloud.tencent.com/document/product/436/96243">腾讯云COS桶安全通知</a>。本项目提供 CertMagic 的 Storage 接口，用于连接到腾讯云 COS，证书的申请与续期仍由 CertMagic 负责，方便于 SSL 证书安全存储于 COS，并支持跨实例共享与分布式续期锁。<p>
-
-
 ## ✨ 特性
 
 - ✅ 提供 `CertMagic` 的 `Storage` 接口，持久化腾讯云 `COS`
